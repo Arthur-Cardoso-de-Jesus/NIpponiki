@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Molengo&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0%;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #b8b8ff;
+    font-family: 'Molengo', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header div{
+    display: flex;
+    width: 75vw;
+}
+.botoes {
+    background-color: #3a3170;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px #4c485f;
+    transition: 250ms;
+}
+
+.botoes:hover {
+    background-color: #ffa347;
+    border: none;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+div.container {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    display: flex;
+    width: 100vw;
+}
+.container-animes{
+    margin: 10px;
+    padding: 50px;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-bottom: 15vh;
+}
+
+
+div.item {
+    text-align: center;
+    padding: 14px;
+    width: 200px;
+    border: 4px solid #3a3170;
+    border-radius: 10px;
+    background-color: #3a3170;
+    transition: 0.3s;
+    -webkit-transform: scale(1.1);
+    display: flex;
+
+}
+
+div.item:hover {
+    background-color: #ffa347;
+    transition-duration: 0.3s;
+    -webkit-transform: scale(1.1);
+    border: #ffa347;
+    box-shadow: 2px 7px 7px rgb(77, 77, 77);
+}
+
+div.capa {
+    height: 30px;
+    width: 30px;
+}
+
+#capa {
+    height: 200px;
+    width: 500px;
+    border-radius: 30px;
+    margin-left: 2.5em;
+}
+
+form {
+    border-radius: 20px;
+    background-color: #3a3170;
+    padding: 20px;
+    width: 900px;
+    margin-top: 15vh;
+}
+
+p {
+    display: inline-block;
+    color: white;
+    float: left;
+    text-align: justify;
+    font-size:2.5vh;
+}
+
+footer {
+        height: 25vh;
+        width: 100%;
+        background-color: #3a3170;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.3em;
+}
+#container-pesquisa{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+#buscaInput{
+    width: 80%;
+    padding: 0.5em;
+    outline: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  
+}
+#btn-pesquisar{
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: #b8b8ff;
+}
+
+
+
+/* API muito epica */
+
+#conteudo{
+    background-color: transparent;
+    margin-top: 25vh;
+    width: 100%;
+    height: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#resultadoBusca{
+background-color: transparent;
+display:flex;
+width: 100vh;
+height: auto;
+flex-direction: column;
+padding: 3vh;
+margin-bottom: 5vh;
+border-radius: 1vh;
+}
+
+#resultadoBusca h2{
+    font-size: 5vh;
+    margin-top: 10vh;
+    align-self: center;
+
+}
+
+#resultadoBusca h3{
+    font-size: 3.5vh;
+    margin-bottom: 5vh;
+    align-self: center;
+
+}
+
+
+#resultadoBusca p{
+    font-size: 2vh;
+    color: black;
+    width: 50vh;
+    
+}
+
+#resultadoBusca img{
+width: 15em;
+margin-bottom: 10vh;
+}

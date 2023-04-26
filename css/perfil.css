@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Molengo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Molengo', sans-serif;
+}
+
+body {
+    background-color: #b8b8ff;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+#container-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container-titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#container-perfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    width: 25vw;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#container-dados {
+    margin-top: 3em;
+}
+
+#container-links {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.links {
+    text-decoration: none;
+    color: #3a3170;
+    transition: 250ms;
+}
+.links:hover{
+    color:#ffa347;
+}
+header {
+    display: flex;
+    background-color: white;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header div{
+    display: flex;
+    width: 75vw;
+}
+.botoes {
+    background-color: #3a3170;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px #4c485f;
+    transition: 250ms;
+}
+
+.botoes:hover {
+    background-color: #ffa347;
+    border: none;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+h1 {
+    color: #4c485f;
+}
+#rodape{
+    height: 25vh;
+    background-color: #3a3170;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3em;
+}

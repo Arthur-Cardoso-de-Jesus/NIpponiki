@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Molengo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Molengo', sans-serif;
+}
+#container-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #b8b8ff;
+}
+
+h1{
+    color: #4c485f;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3em;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 25vw;
+}
+#titulo-formulario{
+    margin-bottom: 1em;
+    text-align: center;
+    color: #3a3170;
+}
+#container-btn-salvar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.label{
+    margin-bottom: 0.5em;
+}
+.inputs{
+    padding: 0.8em;
+    margin-bottom: 1.5em;
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+    border-bottom: 1px solid #9381ff;
+    transition: 250ms;
+}
+.inputs:focus{
+    border-bottom: 1px solid #ffa347;
+}
+#btn-salvar{
+    margin-top: 1.5em;
+    padding: 1em;
+    width: 100%;
+    border: none;
+    border-radius: 1em;
+    background-color: #3a3170;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 250ms;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.8);
+}
+#btn-salvar:hover{
+    background-color: #ffa347;
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.5);
+}
+header {
+    display: flex;
+    background-color: white;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header div{
+    display: flex;
+    width: 75vw;
+}
+.botoes {
+    background-color: #3a3170;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px #4c485f;
+    transition: 250ms;
+}
+
+.botoes:hover {
+    background-color: #ffa347;
+    border: none;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#rodape{
+    height: 25vh;
+    background-color: #3a3170;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3em;
+}

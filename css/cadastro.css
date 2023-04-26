@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("img/tela.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+}
+
+#logo {
+    padding: 1.5em;
+}
+
+#logoImg{
+    width: 10em;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #1c1c1c;
+    width: 25vw;
+    border-radius: 0.8em;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+}
+
+#titulo-formulario {
+    margin: 1em;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+}
+
+.inputs {
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+    width: 100%;
+    outline: none;
+    border: none;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.8);
+    background-color: whitesmoke;
+    transition: 250ms;
+    border-bottom: 0.2em solid #9381ff;
+}
+
+.inputs:hover {
+    border-bottom: 0.2em solid #ffa347;
+}
+
+#btn-salvar {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    background-color: indigo;
+    cursor: pointer;
+    transition: 250ms;
+    color: white;
+}
+
+#btn-salvar:hover {
+    padding-left: 2.8em;
+    padding-right: 2.8em;
+    background-color: #ffa347;
+}
+
+@media screen and (max-device-width: 480px) {
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-image: url("img/tela.jpg");
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: cover;
+        background-color: black;
+    }
+    
+    #logo {
+        background-color: #363636;
+        padding: 3em;
+        border-radius: 50%;
+        color: white;
+    }
+    
+    #formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        background-color: rgb(0, 0, 0);
+        width: 35vw;
+        border-radius: 0.8em;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+    }
+    
+    #titulo-formulario {
+        margin: 1em;
+        text-transform: uppercase;
+        font-weight: 300;
+        color: white;
+    }
+    
+    .inputs {
+        padding: 0.5em;
+        margin-bottom: 1.5em;
+        width: 100%;
+        outline: none;
+        border: none;
+        box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.8);
+        background-color: whitesmoke;
+        transition: 250ms;
+        border-bottom: 0.2em solid #9381ff;
+    }
+    
+    .inputs:hover {
+        border-bottom: 0.2em solid #ffa347;
+    }
+    
+    #btn-salvar {
+        margin-top: 1em;
+        margin-bottom: 3em;
+        padding-top: 0.8em;
+        padding-bottom: 0.8em;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        border-radius: 0.5em;
+        border: none;
+        box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.8);
+        text-transform: uppercase;
+        background-color: indigo;
+        cursor: pointer;
+        transition: 250ms;
+        color: white;
+    }
+    
+    #btn-salvar:hover {
+        padding-left: 2.8em;
+        padding-right: 2.8em;
+        background-color: #ffa347;
+    }
+
+}
